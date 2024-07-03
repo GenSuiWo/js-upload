@@ -1,0 +1,27 @@
+{
+  "name": "@lestertheo/js-upload",
+  "version": "1.0.2",
+  "description": "Lightweight file upload method",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "file upload",
+    "file management",
+    "file handling",
+    "JavaScript",
+    "frontend",
+    "browser"
+  ],
+  "author": "jkx",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  }
+}
