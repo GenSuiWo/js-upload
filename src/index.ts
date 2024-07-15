@@ -1,5 +1,5 @@
 interface UploadAttributes {
-  [key: string]: string;
+  [key: string]: string|number|boolean;
 }
 
 interface UploadResult {
